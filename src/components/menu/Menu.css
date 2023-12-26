@@ -1,0 +1,95 @@
+/* top menu */
+.menu {
+  width: 80vw;
+  margin: 0 10vw;
+  display: flex;
+  position: fixed;
+  z-index: 5;
+}
+
+.menu-button {
+  padding: 1rem;
+  background-color: var(--button-color);
+  border-radius: 0 0 1vw 1vw;
+  font-size: large;
+  font-weight: bolder;
+  color: white;
+}
+
+.menu-button:hover {
+  color: darkred;
+  background-color: var(--button-hover-color);
+  cursor: pointer;
+}
+
+.menu-right {
+  margin-left: auto;
+}
+
+.menu-button-logo {
+  width: 9rem;
+  height: 9rem;  
+  background-size: cover;
+  background-position: center;
+  background-image: url('../../assets/img/logo.png');
+}
+
+.menu-portrait,
+.menu-logo {
+  background-color: var(--button-color);
+  border-radius: 0 0 0.5rem 0.5rem;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.menu-portrait {
+  padding: 1.75rem;
+  background-image: url('../../assets/img/menu.png');
+}
+
+.menu-logo {
+  padding: 9rem;
+  background-image: url('../../assets/img/logo.png');
+}
+
+
+/* landscape */
+@media screen and (min-width: 720px)
+/*and (orientation: landscape)*/
+  {
+
+  /* propriedades */
+  .menu-landscape {
+    display: flex;
+  }
+
+  .menu-portrait {
+    display: none;
+  }
+}
+
+/* portrait */
+@media screen and (max-width: 719px)
+/*and (orientation: portrait)*/
+  {
+
+  /* propriedades */
+  .menu {
+    width: 100vw;
+    margin: 0;
+  }
+
+  .menu-landscape {
+    display: none;
+  }
+
+  .menu-logo {
+    padding: 4.5rem;
+    background-image: url('../../assets/img/logoLow.png');
+  }
+
+  .menu-portrait:hover {
+    background-color: var(--button-hover-color);
+    background-image: url('../../assets/img/menuHover.png');
+  }
+}

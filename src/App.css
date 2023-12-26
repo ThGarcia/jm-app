@@ -1,0 +1,21 @@
+/* global settings */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /*border: 1px solid black;*/
+}
+
+:root {
+  --padding-menu: 40vw;
+  --width: 80%;
+  --margin: 10%;
+  --button-text: white;
+  --button-color: #c98b5a;
+  --button-hover-text: #892201;
+  --button-hover-color: #df8402;
+}
+
+a {
+  text-decoration: none;
+}
