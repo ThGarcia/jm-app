@@ -3,7 +3,6 @@
   width: 100vw;
   height: 80vh;
   position: relative;
-  z-index: 1;
   background-image: url('../../assets/img/intro.png');
   background-size: cover;
   background-position: center;
@@ -11,9 +10,7 @@
 }
 
 .intro-text {
-  top: 360px;
-  left: 360px;
-  width: 540px;
+  width: 100%;
   padding: 50px;
   background-color: rgba(255, 158, 13, 0.616);
   text-align: center;
@@ -32,18 +29,45 @@ h4 {
 }
 
 .intro-logo {
-  right: 360px;
-  top: 180px;
   position: absolute;
 }
 
 /* landscape */
-@media screen and (min-width: 720px) /*and (orientation: landscape)*/ {
-  /* propriedades */
+@media screen and (min-width: 720px)
+/*and (orientation: landscape)*/
+  {
 
+  /* propriedades */
+  .intro-text {
+    width: 40%;
+    top: 40%;
+    left: 10%;
+  }
+
+  .intro-logo {
+    width: 50%;
+    right: -10%;
+    top: 20%;
+  }
 }
 
 /* portrait */
-@media screen and (max-width: 719px) /*and (orientation: portrait)*/ {
+@media screen and (max-width: 719px)
+/*and (orientation: portrait)*/
+  {
+
   /* propriedades */
+  .intro-logo,
+  .intro-text {
+    top: 27.5%;
+    width: 80%;
+    left: 10%;
+    right: 0;
+    text-align: center;
+  }
+
+  .intro-logo {
+    top: 50%;
+    transform: translateY(-50%);
+  }
 }
