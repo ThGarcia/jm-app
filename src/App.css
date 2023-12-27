@@ -2,6 +2,7 @@
 * {
   margin: 0;
   padding: 0;
+  text-decoration: none;
   box-sizing: border-box;
   /*border: 1px solid black;*/
 }
@@ -14,8 +15,4 @@
   --button-color: #c98b5a;
   --button-hover-text: #892201;
   --button-hover-color: #df8402;
-}
-
-a {
-  text-decoration: none;
 }
