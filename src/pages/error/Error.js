@@ -1,5 +1,6 @@
 import React from "react";
 import Menu from "../../components/menu/Menu";
+import Footer from "../../components/footer/Footer";
 import "./Error.css";
 
 import img from "../../assets/img/error.png";
@@ -18,6 +19,7 @@ const Error = () => {
             <p>Não encontramos a página que você está procurando...</p>
         </div>
       </div>
+      <Footer />
     </div>
   );
 };

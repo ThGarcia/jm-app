@@ -1,6 +1,6 @@
 /* cards div */
 .cards {
-    width: 80vw;
+    width: 80%;
     margin: -10rem 0 0 10vw;
     display: flex;
     gap: 1rem;

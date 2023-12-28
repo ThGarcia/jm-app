@@ -1,0 +1,67 @@
+/* footer div */
+.footer {
+    margin-top: 1rem;
+    padding: 20px 40px;
+    display: flex;
+    background-color: var(--button-color);
+    justify-content: space-between;
+    width: 80%;
+    margin-left: 10vw;
+}
+
+.footer-left div {
+    width: 234px;
+    height: 48px;
+}
+
+.footer-local {
+    background-image: url("../../assets/img/local.png");
+}
+
+.footer-local:hover {
+    background-image: url("../../assets/img/localHover.png");
+}
+
+.footer-right div {
+    width: 48px;
+    height: 48px;
+    display: inline-block
+}
+
+.footer-email {
+    background-image: url("../../assets/img/email.png");
+}
+
+.footer-email:hover {
+    background-image: url("../../assets/img/emailHover.png");
+}
+
+.footer-facebook {
+    background-image: url("../../assets/img/facebook.png");
+}
+
+.footer-facebook:hover {
+    background-image: url("../../assets/img/facebookHover.png");
+}
+
+.footer-instagram {
+    background-image: url("../../assets/img/instagram.png");
+}
+
+.footer-instagram:hover {
+    background-image: url("../../assets/img/instagramHover.png");
+}
+
+.footer-whatsapp {
+    background-image: url("../../assets/img/whatsapp.png");
+}
+
+.footer-whatsapp:hover {
+    background-image: url("../../assets/img/whatsappHover.png");
+}
+
+.footer-facebook,
+.footer-instagram,
+.footer-whatsapp {
+    margin-left: 1rem;
+}
