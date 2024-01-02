@@ -1,0 +1,17 @@
+/* about div */
+.about {
+    margin: 1rem 0 1rem 10%;
+    width: 80%;
+    height: 90vh;
+    background-image: url("../../assets/img/about.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center
+}
+
+.about-text {
+    text-align: justify;
+    padding: 20%;
+    font-size: 25px;
+    font-weight: bolder;
+}

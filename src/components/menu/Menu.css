@@ -110,8 +110,19 @@
 
   .menu-options {
     text-align: center;
-    background-color: white;
-    padding: 10px;
+    background-color: var(--button-color);
     border-radius: 15px;
+    font-weight: bolder;
+  }
+
+  .menu-options p {
+    border-radius: 5px;
+    padding: 0.2rem 0.5rem;
+    color: white;
+  }
+
+  .menu-options p:hover {
+    background-color: var(--button-hover-color);
+    color: var(--button-hover-text);
   }
 }

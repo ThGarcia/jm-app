@@ -1,12 +1,11 @@
 /* footer div */
 .footer {
-    margin-top: 1rem;
     padding: 20px;
     display: flex;
     background-color: var(--button-color);
     justify-content: space-between;
     width: 80%;
-    margin-left: 10vw;
+    margin-left: 10%;
 }
 
 .footer-left div {
