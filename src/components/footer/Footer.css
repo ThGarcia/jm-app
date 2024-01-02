@@ -1,7 +1,7 @@
 /* footer div */
 .footer {
     margin-top: 1rem;
-    padding: 20px 40px;
+    padding: 20px;
     display: flex;
     background-color: var(--button-color);
     justify-content: space-between;
@@ -10,8 +10,8 @@
 }
 
 .footer-left div {
-    width: 234px;
-    height: 48px;
+    width: 128px;
+    height: 32px;
 }
 
 .footer-local {
@@ -23,8 +23,8 @@
 }
 
 .footer-right div {
-    width: 48px;
-    height: 48px;
+    width: 32px;
+    height: 32px;
     display: inline-block
 }
 
@@ -63,5 +63,18 @@
 .footer-facebook,
 .footer-instagram,
 .footer-whatsapp {
-    margin-left: 1rem;
+    margin-left: .5rem;
+}
+
+@media screen and (max-width: 719px)
+/*and (orientation: portrait)*/
+    {
+
+    /* propriedades */
+    .footer {
+        align-items: center;
+        flex-direction: column;
+        width: 100%;
+        margin: 0;
+    }
 }

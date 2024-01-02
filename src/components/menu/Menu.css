@@ -1,7 +1,20 @@
+/* Adicione estas classes ao seu CSS */
+.menu.visible {
+  opacity: 1;
+  transform: translateY(0);
+  transition: opacity 0.5s ease, transform 0.5s ease;
+}
+.menu.hidden {
+  opacity: 0;
+  transform: translateY(-100%);
+  transition: opacity 0.5s ease, transform 0.5s ease;
+}
+
+
 /* top menu */
 .menu {
-  width: 80vw;
-  margin: 0 10vw;
+  width: 80%;
+  margin: 0 10%;
   display: flex;
   position: fixed;
   z-index: 5;
@@ -64,7 +77,8 @@
     display: flex;
   }
 
-  .menu-portrait {
+  .menu-portrait,
+  .menu-options {
     display: none;
   }
 }
@@ -92,5 +106,12 @@
   .menu-portrait:hover {
     background-color: var(--button-hover-color);
     background-image: url('../../assets/img/menuHover.png');
+  }
+
+  .menu-options {
+    text-align: center;
+    background-color: white;
+    padding: 10px;
+    border-radius: 15px;
   }
 }
