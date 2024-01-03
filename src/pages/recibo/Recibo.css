@@ -1,0 +1,140 @@
+.container * {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+    overflow-y: hidden;
+    /*border: 1px solid black;*/
+}
+
+.recibo-container {
+    background-image: url("../../assets/img/background.png");
+    background-repeat: repeat-x;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container input {
+    background-color: transparent;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.container {
+    overflow-y: hidden;
+    background-color: rgba(255, 255, 255, 1);
+    background-image: url("../../assets/img/marcadagua.png");
+    background-size: 40%;
+    background-repeat: no-repeat;
+    background-position: center;
+    align-items: center;
+    justify-content: center;
+    min-width: 210mm;
+    padding: 20px;
+    min-height: 99mm;
+}
+
+.recibo {
+    display: flex;
+    justify-content: space-between;
+}
+
+.recibo-logo img {
+    width: 100px;
+}
+
+.recibo-data {
+    margin-top: -110px;
+    margin-left: 115px;
+    height: 100px;
+    font-weight: bolder;
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    color: black;
+}
+
+.recibo-value {
+    margin-top: 20px;
+    text-align: center;
+    font-weight: bolder;
+    font-size: 24px;
+    margin-right: 20px;
+}
+
+.value-box {
+    display: flex;
+    padding: 5px;
+    border-radius: 10px;
+    border: 3px solid black;
+    gap: 25px;
+}
+
+.value-box input {
+    width: 100px;
+    text-align: end;
+    border: none;
+    outline: none;
+}
+
+.fields {
+    margin-top: 25px;
+}
+
+.fields div {
+    display: flex;
+    margin-right: 20px;
+    font-size: 20px;
+    font-weight: bolder;
+    gap: 10px;
+}
+
+.fields input {
+    flex: 1;
+    border: none;
+    outline: none;
+    border-bottom: 2px solid black;
+}
+
+.sign {
+    font-size: 20px;
+    font-weight: bolder;
+    display: flex;
+}
+
+.sign-date {
+    margin-top: 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+}
+
+.sign input {
+    text-align: center;
+    border: none;
+    outline: none;
+    border-bottom: 2px solid black;
+    width: 50px;
+}
+
+.sign-date-sign {
+    margin-top: 40px;
+    margin-left: auto;
+    margin-right: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.sign-date-sign input {
+    width: 300px;
+}
+
+.sign-date-sign p {
+    text-align: center;
+}

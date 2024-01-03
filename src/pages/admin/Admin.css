@@ -1,0 +1,24 @@
+/* admin page */
+.admin {
+    background-image: url('../../assets/img/background.png');
+    height: 100vh;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.admin a {
+    font-size: larger;
+    font-weight: bolder;
+    padding: 25px;
+    background-color: var(--button-color);
+    color:var(--button-text);
+    text-align: center;
+}
+
+.admin a:hover {
+    background-color: var(--button-hover-color);
+    color: var(--button-hover-text);
+}
+
