@@ -1,0 +1,155 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+    /*border: 1px solid black;*/
+}
+
+.all {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    background-image: url("./background.png");
+    align-items: center;
+    justify-content: center;
+
+}
+
+.receipt {
+    background-color: white;
+    min-width: 210mm;
+    min-height: 297mm;
+    padding: 50px;
+}
+
+.cabecalho {
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-bottom: 20px;
+    margin-bottom: 10px;
+    border-bottom: 2px solid black;
+}
+
+.cabecalho img {
+    width: 150px;
+    height: 150px;
+}
+
+.cabecalho-dados {
+    font-size: 20px;
+    text-align: end;
+    flex-direction: column;
+}
+
+.order {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 2px solid black;
+    margin-bottom: 10px;
+}
+
+.order p,
+.client p {
+    padding-bottom: 10px;
+}
+
+.order-right {
+    text-align: end;
+}
+
+.client {
+    display: flex;
+    flex-direction: column;
+    border-bottom: 2px solid black;
+    margin-bottom: 10px;
+}
+
+.client-data {
+    display: flex;
+}
+
+.client-left {
+    width: 50%;
+}
+
+.items-head {
+    display: flex;
+    text-align: center;
+    padding-bottom: 10px;
+    border-bottom: 2px dashed black;
+}
+
+.items-item {
+    display: flex;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.item5, .item6 {
+    padding-right: 5px;
+    text-align: end;
+    flex: 12.5%;
+}
+
+.item1, .item3 {
+    flex: 10%;
+}
+
+.item2 {
+    flex: 40%;
+}
+
+.item4 {
+    flex: 10%;
+}
+
+.item1, .item2,
+.item3, .item4,
+.item5 {
+    border-right: 2px dashed black;
+}
+
+.value {
+    margin-top: 10px;
+    border-top: 2px dashed black;
+}
+
+.value-total {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 5px;
+    padding-bottom: 10px;
+    border-bottom: 2px solid black;
+}
+
+.value-dashed {
+    padding-bottom: 2px;
+    border-bottom: 1px dashed black;
+    flex: 1;
+}
+
+.value-right {
+    align-items: end;
+}
+
+.obs {
+    margin: 20px 0;
+}
+
+.obs ul {
+    margin: 10px 5px 10px 30px;
+}
+
+.attention {
+    text-align: center;
+    padding: 10px 0;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+}
+
+.appendix p {
+    margin: 20px;
+}

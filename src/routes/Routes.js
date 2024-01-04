@@ -5,7 +5,6 @@ import Error from '../pages/error/Error';
 import Admin from '../pages/admin/Admin';
 import Recibo from '../pages/recibo/Recibo';
 
-
 const Routing = ()=>{
     return(
         <Router>
